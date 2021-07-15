@@ -12,6 +12,7 @@ var upperCase = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M"
 
 // Variable Declaration 
 
+var confirmLength;
 var confirmNumericCharacter;
 var confirmSpecialCharacter;
 var confirmLowerCase;
@@ -40,3 +41,14 @@ function writePassword() {
 }
 
 
+/* START OF FUNCTIONS*/
+
+function generatePassword() {
+  var genLength = window.prompt("How many characters do you want the password to be? Enter a value between 8 - 128.");
+
+  if (genLength <= 7 || genLength >= 129) {
+      window.alert("Invalid entry. Please enter a value between 8 - 128");
+      generatePassword();
+  }
+  else{
+    console.log("Password length is " + genLength);

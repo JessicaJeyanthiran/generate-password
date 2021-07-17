@@ -26,7 +26,7 @@ This project has been deployed to GitHub Pages.
 * The user will recieve a confirm for: 
     * Password containing special characters, numbers, lowercase and uppercase
 
-![] (./assets/images/confirm.jpeg.png)
+![] (./images/confirm.png)
 
 * This will need to randomly generate a selection or randomly select array data, so math.random and math.floor will need to be used.     
 * The application should validate user input and ensure that at least one character type is selected.

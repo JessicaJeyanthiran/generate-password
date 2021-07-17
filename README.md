@@ -15,18 +15,18 @@ This project has been deployed to GitHub Pages.
     * This will send the user a series of prompts and confirms
     * After user data is collected, a random password will be generated using Javascript
 
-(assets/images/button.jpeg)
+![] (./assets/images/button.png)
 
 * Prompt
 * The user will be prompted to choose from the following password criteria: 8 and 128 characters
 
-(assets/images/promptlength.jpeg)
+![] (./assets/images/promptlength.png)
 
 * Confirm
 * The user will recieve a confirm for: 
     * Password containing special characters, numbers, lowercase and uppercase
 
-(assets/images/confirm.jpeg)
+![] (./assets/images/confirm.jpeg.png)
 
 * This will need to randomly generate a selection or randomly select array data, so math.random and math.floor will need to be used.     
 * The application should validate user input and ensure that at least one character type is selected.
